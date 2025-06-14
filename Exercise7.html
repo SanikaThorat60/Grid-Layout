@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox navbar</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        nav {
+            padding: 2px;
+            background-color: white;
+            display: flex;
+        }
+
+
+        .right ul {
+            display: flex;
+            justify-content: space-between;
+            gap: 32px;
+            padding: 20px;
+            margin-left: 187px;
+        }
+
+        .right ul li {
+            list-style: none;
+        }
+
+        .logo {
+            padding: 2px;
+            margin-left: 26vw;
+        }
+
+        .logo img {
+            width: 164px;
+        }
+
+        .contanier {
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            grid-template-rows: 200px 200px 200px 200px ;
+            gap: 60px;
+            width: 38vw;
+            height: 50vh;
+            padding: 23px;
+            margin: 157px;
+            margin-left: 26vw;
+        }
+
+        .contanier .box {
+            width: 237px;
+            height: 142px;
+            background-color: rgba(179, 171, 171, 0.555);
+            border-radius: 7px;
+            align-items: center;
+        }
+
+        .box .button1 {
+            background-color: rgb(118, 211, 240);
+            border: 0px solid black;
+            border-radius: 7px;
+            width: 91px;
+            height: 34px;
+            padding: 1px;
+            margin: 10px;
+            margin-top: 34px;
+
+        }
+        .box h1{
+            text-align: center;
+            color: black;
+            padding: 2px;
+    margin: 5px;
+        }
+         .box .button2 {
+            background-color: rgb(144, 216, 85);
+            border: 0px solid black;
+            border-radius: 7px;
+            width: 91px;
+            height: 34px;
+            padding: 1px;
+            margin: 10px;
+            margin-top: 34px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Dark-logo.png" alt="">
+        </div>
+        <div class="right">
+            <ul>
+                <li>Product<i class="fa-solid fa-angle-down"></i></li>
+                <li>Pricing<i class="fa-solid fa-angle-down"></i></li>
+                <li>Resources<i class="fa-solid fa-angle-down"></i></li>
+                <li>About Us</li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="contanier">
+            <div class="box">
+                <h1>English</h1>
+                <button class="button1">Downlaod 32 bit</button>
+                <button class="button2">Downlaod 64 bit</button>
+            </div>
+            <div class="box"><h1>Deutsch</h1>
+                <button class="button1">Downlaod 32 bit</button>
+                <button class="button2">Downlaod 64 bit</button></div>
+            <div class="box"><h1>Italiano</h1>
+                <button class="button1">Downlaod 32 bit</button>
+                <button class="button2">Downlaod 64 bit</button></div>
+            <div class="box"><h1>Español</h1>
+                <button class="button1">Downlaod 32 bit</button>
+                <button class="button2">Downlaod 64 bit</button></div>
+            <div class="box"><h1>français</h1>
+                <button class="button1">Downlaod 32 bit</button>
+                <button class="button2">Downlaod 64 bit</button></div>
+            <div class="box"><h2>Português brasileiro</h2>
+                <button class="button1">Downlaod 32 bit</button>
+                <button class="button2">Downlaod 64 bit</button></div>
+            <div class="box"><h1>日本</h1>
+                <button class="button1">Downlaod 32 bit</button>
+                <button class="button2">Downlaod 64 bit</button></div>
+            <div class="box"><h1>한국어</h1>
+                <button class="button1">Downlaod 32 bit</button>
+                <button class="button2">Downlaod 64 bit</button></div>
+            <div class="box"><h1>华语</h1>
+                <button class="button1">Downlaod 32 bit</button>
+                <button class="button2">Downlaod 64 bit</button></div>
+            <div class="box"><h1>華語</h1>
+                <button class="button1">Downlaod 32 bit</button>
+                <button class="button2">Downlaod 64 bit</button></div>
+        </div>
+        
+    </main>
+    <script src="https://kit.fontawesome.com/5d948a45ab.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
